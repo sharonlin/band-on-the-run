@@ -54,7 +54,7 @@
 				<octane-username>sa@nga</octane-username>
 				<octane-password>Welcome1</octane-password>
 				<octane-url>http://localhost:8080/ui/?p=2001/1002</octane-url>
-				<jenkins-job-name>Band On The Run</jenkins-job-name>
+				<jenkins-job-name>Band-On-The-Run</jenkins-job-name>
 				<jenkins-url>http://localhost:9091/jenkins</jenkins-url>
 				<!--<octane-url>http://myd-vm25044.hpeswlab.net:8081/ui/?p=1001/1002</octane-url>-->
 
