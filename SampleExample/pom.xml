@@ -39,13 +39,13 @@
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-surefire-plugin</artifactId>
         <version>2.19.1</version>
-		<!--<dependencies>-->
-      		<!--<dependency>-->
-				<!--<groupId>com.hp.mqm</groupId>-->
-				<!--<artifactId>surefire-octane</artifactId>-->
-        		<!--<version>12.53.22-SNAPSHOT</version>-->
-      		<!--</dependency>-->
-    	<!--</dependencies>-->
+		<dependencies>
+      		<dependency>
+				<groupId>com.hp.mqm</groupId>
+				<artifactId>surefire-octane</artifactId>
+        		<version>12.53.22-SNAPSHOT</version>
+      		</dependency>
+    	</dependencies>
         <configuration>
           <includes>
             <include>*Test.java</include>
@@ -54,8 +54,8 @@
 				<octane-username>sa@nga</octane-username>
 				<octane-password>Welcome1</octane-password>
 				<octane-url>http://localhost:8080/ui/?p=2001/1002</octane-url>
-				<jenkins-job-name>MQM-Root-full-custom-master</jenkins-job-name>
-				<jenkins-url>http://mydtbld0166.hpeswlab.net:8888/jenkins</jenkins-url>
+				<jenkins-job-name>Band On The Run</jenkins-job-name>
+				<jenkins-url>http://localhost:9091/jenkins</jenkins-url>
 				<!--<octane-url>http://myd-vm25044.hpeswlab.net:8081/ui/?p=1001/1002</octane-url>-->
 
 			</systemPropertyVariables>
