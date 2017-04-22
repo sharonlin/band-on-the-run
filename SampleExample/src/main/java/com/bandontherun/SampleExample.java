@@ -6,6 +6,7 @@ import java.util.ArrayList;
 public class SampleExample {
 	private List<Integer> integers = null;
 
+
 	public SampleExample() {
 		integers = new ArrayList<Integer> ();
 	}
