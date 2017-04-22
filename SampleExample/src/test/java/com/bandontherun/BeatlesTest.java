@@ -8,6 +8,7 @@ public class BeatlesTest {
 	@Test
 	public void AcrossTheUniverse() {
 		Assert.assertTrue(true);
+
 	}
 
 	@Test
